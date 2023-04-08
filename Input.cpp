@@ -1,4 +1,5 @@
 #include "Input.h"
+#include "Display.h"
 #include <iostream>
 
 std::string Input::GetLine()
@@ -10,12 +11,21 @@ std::string Input::GetLine()
 
 int Input::GetInt(int min, int max)
 {
-    if(min < 0)
-    { min = 0; }
-
-    int output = min - 1;
-    while(output < min || output > max)
+    int output;
+    std::string str;
+    do
     {
+        str = GetLine();
+        try
+        {
+            output = std::stoi(str);
+        }
+        catch(std::invalid_argument e)
+        {
+            Display::Print("Enter a number");
+        }
         
     }
+    while(output < min || output > max);
+    return output;
 }

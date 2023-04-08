@@ -129,6 +129,102 @@ Euchre_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/build
 .PHONY : Euchre_app/fast
 
+Card.o: Card.cpp.o
+.PHONY : Card.o
+
+# target to build an object file
+Card.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Card.cpp.o
+.PHONY : Card.cpp.o
+
+Card.i: Card.cpp.i
+.PHONY : Card.i
+
+# target to preprocess a source file
+Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Card.cpp.i
+.PHONY : Card.cpp.i
+
+Card.s: Card.cpp.s
+.PHONY : Card.s
+
+# target to generate assembly for a file
+Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Card.cpp.s
+.PHONY : Card.cpp.s
+
+Display.o: Display.cpp.o
+.PHONY : Display.o
+
+# target to build an object file
+Display.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Display.cpp.o
+.PHONY : Display.cpp.o
+
+Display.i: Display.cpp.i
+.PHONY : Display.i
+
+# target to preprocess a source file
+Display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Display.cpp.i
+.PHONY : Display.cpp.i
+
+Display.s: Display.cpp.s
+.PHONY : Display.s
+
+# target to generate assembly for a file
+Display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Display.cpp.s
+.PHONY : Display.cpp.s
+
+Game.o: Game.cpp.o
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Input.o: Input.cpp.o
+.PHONY : Input.o
+
+# target to build an object file
+Input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Input.cpp.o
+.PHONY : Input.cpp.o
+
+Input.i: Input.cpp.i
+.PHONY : Input.i
+
+# target to preprocess a source file
+Input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Input.cpp.i
+.PHONY : Input.cpp.i
+
+Input.s: Input.cpp.s
+.PHONY : Input.s
+
+# target to generate assembly for a file
+Input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Input.cpp.s
+.PHONY : Input.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Euchre_app"
+	@echo "... Card.o"
+	@echo "... Card.i"
+	@echo "... Card.s"
+	@echo "... Display.o"
+	@echo "... Display.i"
+	@echo "... Display.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Input.o"
+	@echo "... Input.i"
+	@echo "... Input.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

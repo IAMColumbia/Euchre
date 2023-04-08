@@ -83,17 +83,81 @@ CMakeFiles/Euchre_app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Euchre_app.dir/main.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/src/Euchre/main.cpp -o CMakeFiles/Euchre_app.dir/main.cpp.s
 
+CMakeFiles/Euchre_app.dir/Input.cpp.o: CMakeFiles/Euchre_app.dir/flags.make
+CMakeFiles/Euchre_app.dir/Input.cpp.o: ../Input.cpp
+CMakeFiles/Euchre_app.dir/Input.cpp.o: CMakeFiles/Euchre_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/src/Euchre/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Euchre_app.dir/Input.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Euchre_app.dir/Input.cpp.o -MF CMakeFiles/Euchre_app.dir/Input.cpp.o.d -o CMakeFiles/Euchre_app.dir/Input.cpp.o -c /cygdrive/c/src/Euchre/Input.cpp
+
+CMakeFiles/Euchre_app.dir/Input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Euchre_app.dir/Input.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/src/Euchre/Input.cpp > CMakeFiles/Euchre_app.dir/Input.cpp.i
+
+CMakeFiles/Euchre_app.dir/Input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Euchre_app.dir/Input.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/src/Euchre/Input.cpp -o CMakeFiles/Euchre_app.dir/Input.cpp.s
+
+CMakeFiles/Euchre_app.dir/Display.cpp.o: CMakeFiles/Euchre_app.dir/flags.make
+CMakeFiles/Euchre_app.dir/Display.cpp.o: ../Display.cpp
+CMakeFiles/Euchre_app.dir/Display.cpp.o: CMakeFiles/Euchre_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/src/Euchre/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Euchre_app.dir/Display.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Euchre_app.dir/Display.cpp.o -MF CMakeFiles/Euchre_app.dir/Display.cpp.o.d -o CMakeFiles/Euchre_app.dir/Display.cpp.o -c /cygdrive/c/src/Euchre/Display.cpp
+
+CMakeFiles/Euchre_app.dir/Display.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Euchre_app.dir/Display.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/src/Euchre/Display.cpp > CMakeFiles/Euchre_app.dir/Display.cpp.i
+
+CMakeFiles/Euchre_app.dir/Display.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Euchre_app.dir/Display.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/src/Euchre/Display.cpp -o CMakeFiles/Euchre_app.dir/Display.cpp.s
+
+CMakeFiles/Euchre_app.dir/Game.cpp.o: CMakeFiles/Euchre_app.dir/flags.make
+CMakeFiles/Euchre_app.dir/Game.cpp.o: ../Game.cpp
+CMakeFiles/Euchre_app.dir/Game.cpp.o: CMakeFiles/Euchre_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/src/Euchre/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Euchre_app.dir/Game.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Euchre_app.dir/Game.cpp.o -MF CMakeFiles/Euchre_app.dir/Game.cpp.o.d -o CMakeFiles/Euchre_app.dir/Game.cpp.o -c /cygdrive/c/src/Euchre/Game.cpp
+
+CMakeFiles/Euchre_app.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Euchre_app.dir/Game.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/src/Euchre/Game.cpp > CMakeFiles/Euchre_app.dir/Game.cpp.i
+
+CMakeFiles/Euchre_app.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Euchre_app.dir/Game.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/src/Euchre/Game.cpp -o CMakeFiles/Euchre_app.dir/Game.cpp.s
+
+CMakeFiles/Euchre_app.dir/Card.cpp.o: CMakeFiles/Euchre_app.dir/flags.make
+CMakeFiles/Euchre_app.dir/Card.cpp.o: ../Card.cpp
+CMakeFiles/Euchre_app.dir/Card.cpp.o: CMakeFiles/Euchre_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/src/Euchre/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Euchre_app.dir/Card.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Euchre_app.dir/Card.cpp.o -MF CMakeFiles/Euchre_app.dir/Card.cpp.o.d -o CMakeFiles/Euchre_app.dir/Card.cpp.o -c /cygdrive/c/src/Euchre/Card.cpp
+
+CMakeFiles/Euchre_app.dir/Card.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Euchre_app.dir/Card.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/src/Euchre/Card.cpp > CMakeFiles/Euchre_app.dir/Card.cpp.i
+
+CMakeFiles/Euchre_app.dir/Card.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Euchre_app.dir/Card.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/src/Euchre/Card.cpp -o CMakeFiles/Euchre_app.dir/Card.cpp.s
+
 # Object files for target Euchre_app
 Euchre_app_OBJECTS = \
-"CMakeFiles/Euchre_app.dir/main.cpp.o"
+"CMakeFiles/Euchre_app.dir/main.cpp.o" \
+"CMakeFiles/Euchre_app.dir/Input.cpp.o" \
+"CMakeFiles/Euchre_app.dir/Display.cpp.o" \
+"CMakeFiles/Euchre_app.dir/Game.cpp.o" \
+"CMakeFiles/Euchre_app.dir/Card.cpp.o"
 
 # External object files for target Euchre_app
 Euchre_app_EXTERNAL_OBJECTS =
 
 Euchre_app.exe: CMakeFiles/Euchre_app.dir/main.cpp.o
+Euchre_app.exe: CMakeFiles/Euchre_app.dir/Input.cpp.o
+Euchre_app.exe: CMakeFiles/Euchre_app.dir/Display.cpp.o
+Euchre_app.exe: CMakeFiles/Euchre_app.dir/Game.cpp.o
+Euchre_app.exe: CMakeFiles/Euchre_app.dir/Card.cpp.o
 Euchre_app.exe: CMakeFiles/Euchre_app.dir/build.make
 Euchre_app.exe: CMakeFiles/Euchre_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/src/Euchre/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Euchre_app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/src/Euchre/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Euchre_app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Euchre_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

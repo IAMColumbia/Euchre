@@ -1,4 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Euchre_app.dir/Card.cpp.o"
+  "CMakeFiles/Euchre_app.dir/Card.cpp.o.d"
+  "CMakeFiles/Euchre_app.dir/Display.cpp.o"
+  "CMakeFiles/Euchre_app.dir/Display.cpp.o.d"
+  "CMakeFiles/Euchre_app.dir/Game.cpp.o"
+  "CMakeFiles/Euchre_app.dir/Game.cpp.o.d"
+  "CMakeFiles/Euchre_app.dir/Input.cpp.o"
+  "CMakeFiles/Euchre_app.dir/Input.cpp.o.d"
   "CMakeFiles/Euchre_app.dir/main.cpp.o"
   "CMakeFiles/Euchre_app.dir/main.cpp.o.d"
   "Euchre_app.exe"
