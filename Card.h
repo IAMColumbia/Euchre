@@ -21,6 +21,7 @@ class Card
             Eight,
             Seven
         };
+        
         Card(Card::Suit suit, Card::Rank rank);
         Suit Suit;
         Rank Rank;

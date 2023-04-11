@@ -1,4 +1,6 @@
 #pragma once
+#include <vector>
+#include "Card.h"
 
 class Game
 {
@@ -6,4 +8,6 @@ class Game
         void Start();
     private:
         bool running = false;
+        int playersPerTeam = 2;
+        std::vector<Card>* deck;
 };

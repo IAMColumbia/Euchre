@@ -1,5 +1,5 @@
 CMakeFiles/Euchre_app.dir/Game.cpp.o: /cygdrive/c/src/Euchre/Game.cpp \
- /cygdrive/c/src/Euchre/Game.h /cygdrive/c/src/Euchre/Input.h \
+ /cygdrive/c/src/Euchre/Game.h /cygdrive/c/src/Euchre/Display.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/string \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++config.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/os_defines.h \
@@ -94,6 +94,7 @@ CMakeFiles/Euchre_app.dir/Game.cpp.o: /cygdrive/c/src/Euchre/Game.cpp \
  /usr/include/sys/errno.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/charconv.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/basic_string.tcc \
+ /cygdrive/c/src/Euchre/Input.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/iostream \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ostream \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ios \
