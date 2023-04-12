@@ -2,6 +2,7 @@
 #include "Display.h"
 #include "Input.h"
 #include "Player.h"
+#include "Bot.h"
 #include <iostream>
 
 void Game::Start()
@@ -11,13 +12,15 @@ void Game::Start()
     Input* input = new Input();
 
     deck = new std::vector<Card>();
+    players = new std::vector<Player>();
 
     Player* player = new Player(deck);
-    //TODO: add player to array
+    players->push_back(*player);
 
     for(int i = 1; i < Game::playersPerTeam * 2; i++)
     {
-        //TODO: create bots and add to array
+        Bot* bot = new Bot(deck);
+        players->push_back(*(Player*)bot);
     }    
 
     while(Game::running)
