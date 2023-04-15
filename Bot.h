@@ -6,5 +6,5 @@ class Bot : Player
 {
     public:
         using Player::Player;
-        Card* PlayCard();
+        Card* PlayCard() override;
 };

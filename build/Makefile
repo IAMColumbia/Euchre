@@ -129,6 +129,30 @@ Euchre_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/build
 .PHONY : Euchre_app/fast
 
+Bot.o: Bot.cpp.o
+.PHONY : Bot.o
+
+# target to build an object file
+Bot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Bot.cpp.o
+.PHONY : Bot.cpp.o
+
+Bot.i: Bot.cpp.i
+.PHONY : Bot.i
+
+# target to preprocess a source file
+Bot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Bot.cpp.i
+.PHONY : Bot.cpp.i
+
+Bot.s: Bot.cpp.s
+.PHONY : Bot.s
+
+# target to generate assembly for a file
+Bot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Bot.cpp.s
+.PHONY : Bot.cpp.s
+
 Card.o: Card.cpp.o
 .PHONY : Card.o
 
@@ -306,6 +330,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Euchre_app"
+	@echo "... Bot.o"
+	@echo "... Bot.i"
+	@echo "... Bot.s"
 	@echo "... Card.o"
 	@echo "... Card.i"
 	@echo "... Card.s"

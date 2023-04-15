@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Euchre_app.dir/Bot.cpp.o"
+  "CMakeFiles/Euchre_app.dir/Bot.cpp.o.d"
   "CMakeFiles/Euchre_app.dir/Card.cpp.o"
   "CMakeFiles/Euchre_app.dir/Card.cpp.o.d"
   "CMakeFiles/Euchre_app.dir/Display.cpp.o"

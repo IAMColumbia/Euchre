@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/cygdrive/c/src/Euchre/Bot.cpp" "CMakeFiles/Euchre_app.dir/Bot.cpp.o" "gcc" "CMakeFiles/Euchre_app.dir/Bot.cpp.o.d"
   "/cygdrive/c/src/Euchre/Card.cpp" "CMakeFiles/Euchre_app.dir/Card.cpp.o" "gcc" "CMakeFiles/Euchre_app.dir/Card.cpp.o.d"
   "/cygdrive/c/src/Euchre/Display.cpp" "CMakeFiles/Euchre_app.dir/Display.cpp.o" "gcc" "CMakeFiles/Euchre_app.dir/Display.cpp.o.d"
   "/cygdrive/c/src/Euchre/Game.cpp" "CMakeFiles/Euchre_app.dir/Game.cpp.o" "gcc" "CMakeFiles/Euchre_app.dir/Game.cpp.o.d"

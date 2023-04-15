@@ -13,4 +13,6 @@ Utility.h
 Utility.cpp
 Player.h
 Player.cpp
+Bot.h
+Bot.cpp
 )

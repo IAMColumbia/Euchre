@@ -1,5 +1,6 @@
 #pragma once
 #include "Card.h"
+#include "Input.h"
 #include <vector>
 
 
@@ -10,4 +11,5 @@ class Player
         virtual Card* PlayCard();
     private:
         std::vector<Card>* deck;
+        Input* input;
 };
