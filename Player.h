@@ -7,7 +7,7 @@ class Player
 {
     public:
         Player(std::vector<Card>* cards);
-        virtual Card* GetCard();
+        virtual Card* PlayCard();
     private:
-        std::vector<Card>* cards;
+        std::vector<Card>* deck;
 };

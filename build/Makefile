@@ -225,6 +225,54 @@ Input.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Input.cpp.s
 .PHONY : Input.cpp.s
 
+Player.o: Player.cpp.o
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
+Utility.o: Utility.cpp.o
+.PHONY : Utility.o
+
+# target to build an object file
+Utility.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Utility.cpp.o
+.PHONY : Utility.cpp.o
+
+Utility.i: Utility.cpp.i
+.PHONY : Utility.i
+
+# target to preprocess a source file
+Utility.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Utility.cpp.i
+.PHONY : Utility.cpp.i
+
+Utility.s: Utility.cpp.s
+.PHONY : Utility.s
+
+# target to generate assembly for a file
+Utility.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Euchre_app.dir/build.make CMakeFiles/Euchre_app.dir/Utility.cpp.s
+.PHONY : Utility.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -270,6 +318,12 @@ help:
 	@echo "... Input.o"
 	@echo "... Input.i"
 	@echo "... Input.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
+	@echo "... Utility.o"
+	@echo "... Utility.i"
+	@echo "... Utility.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

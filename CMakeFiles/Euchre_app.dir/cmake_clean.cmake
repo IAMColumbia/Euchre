@@ -7,8 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Euchre_app.dir/Game.cpp.o.d"
   "CMakeFiles/Euchre_app.dir/Input.cpp.o"
   "CMakeFiles/Euchre_app.dir/Input.cpp.o.d"
-  "CMakeFiles/Euchre_app.dir/Player.cpp.o"
-  "CMakeFiles/Euchre_app.dir/Player.cpp.o.d"
   "CMakeFiles/Euchre_app.dir/Utility.cpp.o"
   "CMakeFiles/Euchre_app.dir/Utility.cpp.o.d"
   "CMakeFiles/Euchre_app.dir/main.cpp.o"

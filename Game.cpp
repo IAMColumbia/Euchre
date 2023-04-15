@@ -15,12 +15,12 @@ void Game::Start()
     players = new std::vector<Player>();
 
     Player* player = new Player(deck);
-    players->push_back(*player);
+    // players->push_back(*player);
 
     for(int i = 1; i < Game::playersPerTeam * 2; i++)
     {
-        Bot* bot = new Bot(deck);
-        players->push_back(*(Player*)bot);
+        //Bot* bot = new Bot(deck);
+        //players->push_back(*(Player*)bot);
     }    
 
     while(Game::running)

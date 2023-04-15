@@ -12,7 +12,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/cygdrive/c/src/Euchre/Display.cpp" "CMakeFiles/Euchre_app.dir/Display.cpp.o" "gcc" "CMakeFiles/Euchre_app.dir/Display.cpp.o.d"
   "/cygdrive/c/src/Euchre/Game.cpp" "CMakeFiles/Euchre_app.dir/Game.cpp.o" "gcc" "CMakeFiles/Euchre_app.dir/Game.cpp.o.d"
   "/cygdrive/c/src/Euchre/Input.cpp" "CMakeFiles/Euchre_app.dir/Input.cpp.o" "gcc" "CMakeFiles/Euchre_app.dir/Input.cpp.o.d"
-  "/cygdrive/c/src/Euchre/Player.cpp" "CMakeFiles/Euchre_app.dir/Player.cpp.o" "gcc" "CMakeFiles/Euchre_app.dir/Player.cpp.o.d"
   "/cygdrive/c/src/Euchre/Utility.cpp" "CMakeFiles/Euchre_app.dir/Utility.cpp.o" "gcc" "CMakeFiles/Euchre_app.dir/Utility.cpp.o.d"
   "/cygdrive/c/src/Euchre/main.cpp" "CMakeFiles/Euchre_app.dir/main.cpp.o" "gcc" "CMakeFiles/Euchre_app.dir/main.cpp.o.d"
   )

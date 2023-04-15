@@ -1,5 +1,5 @@
-CMakeFiles/Euchre_app.dir/Game.cpp.o: /cygdrive/c/src/Euchre/Game.cpp \
- /cygdrive/c/src/Euchre/Game.h \
+CMakeFiles/Euchre_app.dir/Player.cpp.o: /cygdrive/c/src/Euchre/Player.cpp \
+ /cygdrive/c/src/Euchre/Player.h /cygdrive/c/src/Euchre/Card.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/vector \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_algobase.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++config.h \
@@ -39,7 +39,6 @@ CMakeFiles/Euchre_app.dir/Game.cpp.o: /cygdrive/c/src/Euchre/Game.cpp \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/hash_bytes.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/range_access.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/vector.tcc \
- /cygdrive/c/src/Euchre/Card.h /cygdrive/c/src/Euchre/Player.h \
  /cygdrive/c/src/Euchre/Display.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/string \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stringfwd.h \
@@ -100,33 +99,4 @@ CMakeFiles/Euchre_app.dir/Game.cpp.o: /cygdrive/c/src/Euchre/Game.cpp \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/cerrno /usr/include/errno.h \
  /usr/include/sys/errno.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/charconv.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/basic_string.tcc \
- /cygdrive/c/src/Euchre/Input.h /cygdrive/c/src/Euchre/Bot.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/iostream \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ostream \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ios \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/exception \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/exception_ptr.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/cxxabi_init_exception.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/typeinfo \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/nested_exception.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/ios_base.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/locale_classes.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/locale_classes.tcc \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/system_error \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/error_constants.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/stdexcept \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/streambuf \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/streambuf.tcc \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/basic_ios.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/locale_facets.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/cwctype \
- /usr/include/wctype.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/ctype_base.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/streambuf_iterator.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/ctype_inline.h \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/locale_facets.tcc \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/basic_ios.tcc \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/ostream.tcc \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/istream \
- /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/istream.tcc
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/basic_string.tcc

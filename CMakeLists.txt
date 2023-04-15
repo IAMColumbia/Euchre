@@ -8,4 +8,9 @@ Display.cpp
 Game.h
 Game.cpp
 Card.h
-Card.cpp)
+Card.cpp
+Utility.h
+Utility.cpp
+Player.h
+Player.cpp
+)

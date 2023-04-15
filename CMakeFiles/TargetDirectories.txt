@@ -1,0 +1,3 @@
+/cygdrive/c/src/Euchre/CMakeFiles/Euchre_app.dir
+/cygdrive/c/src/Euchre/CMakeFiles/edit_cache.dir
+/cygdrive/c/src/Euchre/CMakeFiles/rebuild_cache.dir

@@ -121,4 +121,10 @@ CMakeFiles/Euchre_app.dir/main.cpp.o: /cygdrive/c/src/Euchre/main.cpp \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/ostream.tcc \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/istream \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/istream.tcc \
- /cygdrive/c/src/Euchre/Game.h
+ /cygdrive/c/src/Euchre/Game.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/vector \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_uninitialized.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_vector.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_bvector.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/vector.tcc \
+ /cygdrive/c/src/Euchre/Card.h /cygdrive/c/src/Euchre/Player.h

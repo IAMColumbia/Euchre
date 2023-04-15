@@ -159,16 +159,12 @@ CMakeFiles/Euchre_app.dir/Display.cpp.o: ../Display.cpp \
 
 CMakeFiles/Euchre_app.dir/Game.cpp.o: ../Game.cpp \
   ../Game.h \
-  ../Display.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/string \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/vector \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_algobase.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++config.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/os_defines.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/cpu_defines.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/pstl/pstl_config.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stringfwd.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/memoryfwd.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/char_traits.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_algobase.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/functexcept.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/exception_defines.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/cpp_type_traits.h \
@@ -185,6 +181,29 @@ CMakeFiles/Euchre_app.dir/Game.cpp.o: ../Game.cpp \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/ptr_traits.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/debug/debug.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/predefined_ops.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/allocator.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++allocator.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ext/new_allocator.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/new \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/exception.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/memoryfwd.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_construct.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_uninitialized.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ext/alloc_traits.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/alloc_traits.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_vector.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/initializer_list \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_bvector.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/functional_hash.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/hash_bytes.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/range_access.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/vector.tcc \
+  ../Card.h \
+  ../Player.h \
+  ../Display.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/string \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stringfwd.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/char_traits.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/postypes.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/cwchar \
   /usr/include/wchar.h \
@@ -209,11 +228,6 @@ CMakeFiles/Euchre_app.dir/Game.cpp.o: ../Game.cpp \
   /usr/include/stdint.h \
   /usr/include/sys/_intsup.h \
   /usr/include/sys/_stdint.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/allocator.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++allocator.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ext/new_allocator.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/new \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/exception.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/localefwd.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++locale.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/clocale \
@@ -226,8 +240,6 @@ CMakeFiles/Euchre_app.dir/Game.cpp.o: ../Game.cpp \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/cxxabi_forced.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_function.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward/binders.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/range_access.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/initializer_list \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/basic_string.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ext/atomicity.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/gthr.h \
@@ -259,12 +271,7 @@ CMakeFiles/Euchre_app.dir/Game.cpp.o: ../Game.cpp \
   /usr/include/machine/time.h \
   /usr/include/cygwin/time.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/atomic_word.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ext/alloc_traits.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/alloc_traits.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_construct.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/string_view \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/functional_hash.h \
-  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/hash_bytes.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/string_view.tcc \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ext/string_conversions.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/cstdlib \
@@ -283,6 +290,7 @@ CMakeFiles/Euchre_app.dir/Game.cpp.o: ../Game.cpp \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/charconv.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/basic_string.tcc \
   ../Input.h \
+  ../Bot.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/iostream \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ostream \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ios \
@@ -466,6 +474,36 @@ CMakeFiles/Euchre_app.dir/Input.cpp.o: ../Input.cpp \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/istream \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/istream.tcc
 
+CMakeFiles/Euchre_app.dir/Utility.cpp.o: ../Utility.cpp \
+  ../Utility.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/stdlib.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/cstdlib \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++config.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/os_defines.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/cpu_defines.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/pstl/pstl_config.h \
+  /usr/include/stdlib.h \
+  /usr/include/machine/ieeefp.h \
+  /usr/include/_ansi.h \
+  /usr/include/newlib.h \
+  /usr/include/_newlib_version.h \
+  /usr/include/sys/config.h \
+  /usr/include/sys/features.h \
+  /usr/include/cygwin/config.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/stddef.h \
+  /usr/include/sys/reent.h \
+  /usr/include/_ansi.h \
+  /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h \
+  /usr/include/machine/_default_types.h \
+  /usr/include/sys/lock.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/machine/stdlib.h \
+  /usr/include/alloca.h \
+  /usr/include/cygwin/stdlib.h \
+  /usr/include/cygwin/wait.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/std_abs.h
+
 CMakeFiles/Euchre_app.dir/main.cpp.o: ../main.cpp \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/iostream \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++config.h \
@@ -617,10 +655,31 @@ CMakeFiles/Euchre_app.dir/main.cpp.o: ../main.cpp \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/ostream.tcc \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/istream \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/istream.tcc \
-  ../Game.h
+  ../Game.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/vector \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_uninitialized.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_vector.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_bvector.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/vector.tcc \
+  ../Card.h \
+  ../Player.h
 
+
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/stdlib.h:
+
+../Utility.h:
 
 ../Input.cpp:
+
+../Bot.h:
+
+../Player.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_bvector.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_vector.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_uninitialized.h:
 
 ../Game.h:
 
@@ -784,6 +843,8 @@ CMakeFiles/Euchre_app.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/ostream_insert.h:
 
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/vector:
+
 /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/cstdint:
 
 /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/type_traits:
@@ -792,7 +853,11 @@ CMakeFiles/Euchre_app.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/predefined_ops.h:
 
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/vector.tcc:
+
 /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_iterator_base_types.h:
+
+../Utility.cpp:
 
 ../Input.h:
 

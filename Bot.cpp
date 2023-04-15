@@ -1,8 +1,8 @@
 #include "Bot.h"
 #include "Display.h"
 
-Card* Bot::GetCard()
+Card* Bot::PlayCard()
 {
-    Display::Print("Bot GetCard()");
+    Display::Print("Bot PlayCard()");
     return nullptr;
 }

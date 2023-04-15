@@ -4,11 +4,11 @@
 Player::Player(std::vector<Card>* cards)
 {
     Display::Print("Initializing Player...");
-    this->cards = cards;
+    deck = cards;
 }
 
-Card* Player::GetCard()
+Card* Player::PlayCard()
 {
-    Display::Print("Player GetCard()");
+    Display::Print("Player PlayCard()");
     return nullptr;
 }
