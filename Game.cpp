@@ -31,10 +31,15 @@ void Game::Start()
         for(int i = 0; i < players->size(); i++)
         {
             Display::Print("Player(" + std::to_string(i) + ")");
-            bool playerTeam = i < Game::playersPerTeam;
-            Display::Print(playerTeam ? "Player Team" : "Other Team");
+            bool isPlayerTeam = i < Game::playersPerTeam;
+            Display::Print(isPlayerTeam ? "Player Team" : "Other Team");
 
-            players->at(i).PlayCard();
+            Bot* bot = dynamic_cast<Bot*>(&players->at(i));
+            
+            if(bot)
+            { bot->PlayCard(); }
+            else
+            { players->at(i).PlayCard(); }
         }
         roundsLeft--;
     }
