@@ -2,9 +2,9 @@
 #include "Player.h"
 #include "Card.h"
 
-class Bot : Player
+class Bot : public Player
 {
     public:
-        using Player::Player;
+        Bot(std::vector<Card>* cards);
         Card* PlayCard() override;
 };

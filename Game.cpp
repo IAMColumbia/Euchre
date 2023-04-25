@@ -16,10 +16,12 @@ void Game::Start()
 
     Player* player = new Player(deck);
     players->push_back(*player);
+    std::cout << "Returning " << *typeid(*player).name() << std::endl;
 
     for(int i = 1; i < Game::playersPerTeam * 2; i++)
     {
         Bot* bot = new Bot(deck);
+        std::cout << "Returning " << *typeid(*bot).name() << std::endl;   
         players->push_back(*(Player*)bot);
     }    
 
@@ -34,9 +36,9 @@ void Game::Start()
             bool isPlayerTeam = i < Game::playersPerTeam;
             Display::Print(isPlayerTeam ? "Player Team" : "Other Team");
 
-            Bot* bot = dynamic_cast<Bot*>(&players->at(i));
+            Bot* bot = dynamic_cast <Bot*>(&players->at(i));
             
-            if(bot)
+            if(bot != nullptr)
             { bot->PlayCard(); }
             else
             { players->at(i).PlayCard(); }
