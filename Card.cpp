@@ -1,7 +1,7 @@
 #include "Card.h"
 
-Card::Card(enum Card::Suit suit, enum Card::Rank rank)
+Card::Card(Card::SuitEnum suit, Card::RankEnum rank)
 {
     Suit = suit;
-    Rank = rank;   
+    Rank = rank;
 }

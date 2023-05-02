@@ -3,6 +3,7 @@
 #include "Input.h"
 #include "Player.h"
 #include "Bot.h"
+#include "Utility.h"
 #include <iostream>
 #include <string>
 
@@ -11,8 +12,18 @@ void Game::Start()
     Game::running = true;
     std::cout << "Euchre" << std::endl;
 
+    //generate Euchre deck
     deck = new std::vector<Card>();
-    // players = new std::vector<Player>();
+    for(int i = 0; i < 4; i++)
+    {
+        for(int j = 0; j < 8; j++)
+        {
+            deck->push_back(*new Card((Card::SuitEnum)i, (Card::RankEnum)j));
+        }
+    }
+
+
+    
 
     //I couldnt figure out downcasting so I had to do it the bad way :(
     Player* player1 = new Player(deck);
@@ -20,6 +31,7 @@ void Game::Start()
     Bot* bot3 = new Bot(deck);
     Bot* bot4 = new Bot(deck);
 
+    // players = new std::vector<Player>();
     // Player* player = new Player(deck);
     // players->push_back(*player);
 
@@ -77,6 +89,15 @@ void Game::Start()
         }
         roundsLeft--;
     }
+}
 
-    
+void Game::ShuffleDeck(std::vector<Card> *deck)
+{
+    for (int i = 0; i < deck->size(); i++)
+    {
+        Card* temp = *deck[i];
+        int randIndex = Utility::RandomRange(0, deck->size());
+        deck[i] = deck[randIndex];
+        deck[randIndex] = temp;
+    }
 }

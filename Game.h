@@ -12,4 +12,5 @@ class Game
         int playersPerTeam = 2;
         std::vector<Card>* deck;
         //std::vector<Player>* players;
+        void ShuffleDeck(std::vector<Card>* deck);
 };

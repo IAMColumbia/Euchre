@@ -3,14 +3,14 @@
 class Card
 {
     public:
-        enum Suit
+        enum SuitEnum
         {
             Spades,
             Hearts,
             Diamonds,
             Clubs
         };
-        enum Rank
+        enum RankEnum
         {
             Ace,
             King,
@@ -22,7 +22,7 @@ class Card
             Seven
         };
         
-        Card(Card::Suit suit, Card::Rank rank);
-        Suit Suit;
-        Rank Rank;
+        Card(Card::SuitEnum suit, Card::RankEnum rank);
+        SuitEnum Suit;
+        RankEnum Rank;
 };

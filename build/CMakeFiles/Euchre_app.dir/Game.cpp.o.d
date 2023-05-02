@@ -102,6 +102,8 @@ CMakeFiles/Euchre_app.dir/Game.cpp.o: /cygdrive/c/src/Euchre/Game.cpp \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/charconv.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/basic_string.tcc \
  /cygdrive/c/src/Euchre/Display.h /cygdrive/c/src/Euchre/Bot.h \
+ /cygdrive/c/src/Euchre/Utility.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/stdlib.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/iostream \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ostream \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ios \
