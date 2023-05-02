@@ -12,37 +12,71 @@ void Game::Start()
     std::cout << "Euchre" << std::endl;
 
     deck = new std::vector<Card>();
-    players = new std::vector<Player>();
+    // players = new std::vector<Player>();
 
-    Player* player = new Player(deck);
-    players->push_back(*player);
-    std::cout << "Returning " << *typeid(*player).name() << std::endl;
+    //I couldnt figure out downcasting so I had to do it the bad way :(
+    Player* player1 = new Player(deck);
+    Bot* bot2 = new Bot(deck);
+    Bot* bot3 = new Bot(deck);
+    Bot* bot4 = new Bot(deck);
 
-    for(int i = 1; i < Game::playersPerTeam * 2; i++)
-    {
-        Bot* bot = new Bot(deck);
-        std::cout << "Returning " << *typeid(*bot).name() << std::endl;   
-        players->push_back(*(Player*)bot);
-    }    
+    // Player* player = new Player(deck);
+    // players->push_back(*player);
+
+    // for(int i = 1; i < Game::playersPerTeam * 2; i++)
+    // {
+    //     Bot* bot = new Bot(deck);
+    //     std::cout << "Returning " << *typeid(*bot).name() << std::endl; 
+    //     player = bot;  
+    //     players->push_back(*player);
+    // }    
 
     int roundsLeft = 5;
+    
 
     while(Game::running)
     {
-        Display::Print("Round " + roundsLeft);
-        for(int i = 0; i < players->size(); i++)
+        Display::Print("\nRound " + roundsLeft);
+        for(int i = 0; i < 4; i++)
         {
-            Display::Print("Player(" + std::to_string(i) + ")");
-            bool isPlayerTeam = i < Game::playersPerTeam;
-            Display::Print(isPlayerTeam ? "Player Team" : "Other Team");
+            Display::Print("\n");
+            // Bot *bot = static_cast<Bot *>(&players->at(i));
+            // bot = (Bot *)bot;
+            //Bad workaround because i couldnt get downcasting to work
+            Player* player = nullptr;
+            Bot* bot = nullptr;
+            switch(i)
+            {
+                case 0:
+                player = player1;
+                    break;
+                case 1:
+                bot = bot2;
+                    break;
+                case 2:
+                bot = bot3;
+                    break;
+                case 3:
+                bot = bot4;
+                    break;
+            }
 
-            Bot* bot = dynamic_cast <Bot*>(&players->at(i));
+            bool isPlayerTeam = i < 2;
+            Display::Print(isPlayerTeam ? "Player Team" : "Other Team");
             
             if(bot != nullptr)
-            { bot->PlayCard(); }
+            { 
+                Display::Print("BOT: ");
+                bot->PlayCard();
+            }
             else
-            { players->at(i).PlayCard(); }
+            {
+                Display::Print("PLAYER: ");
+                player->PlayCard();
+            }
         }
         roundsLeft--;
     }
+
+    
 }
