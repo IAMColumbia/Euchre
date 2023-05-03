@@ -13,6 +13,7 @@ Card* Player::PlayCard()
 {
     Display::Print("Your Turn");
     Display::Print("Pick a card");
+    Display::PrintDeck(deck);
     std::cout << input->GetInt(0, 9) << std::endl;
     return nullptr;
 }

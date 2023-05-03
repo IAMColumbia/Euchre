@@ -95,6 +95,12 @@ CMakeFiles/Euchre_app.dir/Input.cpp.o: /cygdrive/c/src/Euchre/Input.cpp \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/charconv.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/basic_string.tcc \
  /cygdrive/c/src/Euchre/Display.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/vector \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_uninitialized.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_vector.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_bvector.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/vector.tcc \
+ /cygdrive/c/src/Euchre/Card.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/iostream \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ostream \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ios \

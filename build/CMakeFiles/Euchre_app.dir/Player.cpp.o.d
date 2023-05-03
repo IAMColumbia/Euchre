@@ -1,6 +1,5 @@
 CMakeFiles/Euchre_app.dir/Player.cpp.o: /cygdrive/c/src/Euchre/Player.cpp \
  /cygdrive/c/src/Euchre/Player.h /cygdrive/c/src/Euchre/Card.h \
- /cygdrive/c/src/Euchre/Input.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/string \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++config.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/os_defines.h \
@@ -95,6 +94,7 @@ CMakeFiles/Euchre_app.dir/Player.cpp.o: /cygdrive/c/src/Euchre/Player.cpp \
  /usr/include/sys/errno.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/charconv.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/basic_string.tcc \
+ /cygdrive/c/src/Euchre/Input.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/vector \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_uninitialized.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_vector.h \

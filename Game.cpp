@@ -22,14 +22,50 @@ void Game::Start()
         }
     }
 
+    ShuffleDeck(deck);
 
-    
+    std::vector<Card>* player1_Deck = new std::vector<Card>();    
+    std::vector<Card>* bot2_Deck = new std::vector<Card>();    
+    std::vector<Card>* bot3_Deck = new std::vector<Card>();    
+    std::vector<Card>* bot4_Deck = new std::vector<Card>();
+
+    int player = 1;
+    int cardCount = 0;
+    for(int i = 0; i < deck->size(); i++)
+    {
+        std::vector<Card>* deckToAddTo;
+        switch (player)
+        {
+            case 1:
+            deckToAddTo = player1_Deck;
+                break;
+            case 2:
+            deckToAddTo = bot2_Deck;
+                break;
+            case 3:
+            deckToAddTo = bot3_Deck;
+                break;
+            case 4:
+            deckToAddTo = bot4_Deck;
+                break;
+        }
+
+        deckToAddTo->push_back(deck->at(i));
+        deck->erase(deck->begin() + i);
+
+        cardCount++;
+
+        if(cardCount >= 5)
+        { player++; }
+        if(player > 4)
+        { break; }
+    }   
 
     //I couldnt figure out downcasting so I had to do it the bad way :(
-    Player* player1 = new Player(deck);
-    Bot* bot2 = new Bot(deck);
-    Bot* bot3 = new Bot(deck);
-    Bot* bot4 = new Bot(deck);
+    Player* player1 = new Player(player1_Deck);
+    Bot* bot2 = new Bot(bot2_Deck);
+    Bot* bot3 = new Bot(bot3_Deck);
+    Bot* bot4 = new Bot(bot4_Deck);
 
     // players = new std::vector<Player>();
     // Player* player = new Player(deck);
@@ -95,9 +131,14 @@ void Game::ShuffleDeck(std::vector<Card> *deck)
 {
     for (int i = 0; i < deck->size(); i++)
     {
-        Card* temp = *deck[i];
+        Card temp = deck->at(i);
         int randIndex = Utility::RandomRange(0, deck->size());
-        deck[i] = deck[randIndex];
-        deck[randIndex] = temp;
+        deck->at(i) = deck->at(randIndex);
+        deck->at(randIndex) = temp;
     }
+    // Display::Print("DECK: ");
+    // for (int i = 0; i < deck->size(); i++)
+    // {
+    //     Display::Print(std::to_string(deck->at(i).Suit));
+    // }
 }

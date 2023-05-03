@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 
 class Card
 {
@@ -25,4 +26,5 @@ class Card
         Card(Card::SuitEnum suit, Card::RankEnum rank);
         SuitEnum Suit;
         RankEnum Rank;
+        std::string ToString();
 };
