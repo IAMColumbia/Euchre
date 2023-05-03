@@ -31,7 +31,8 @@ void Game::Start()
 
     int player = 1;
     int cardCount = 0;
-    for(int i = 0; i < deck->size(); i++)
+    int deckSize = deck->size();
+    for(int i = 0; i < deckSize; i++)
     {
         std::vector<Card>* deckToAddTo;
         switch (player)
@@ -50,15 +51,20 @@ void Game::Start()
                 break;
         }
 
-        deckToAddTo->push_back(deck->at(i));
-        deck->erase(deck->begin() + i);
+        deckToAddTo->push_back(deck->at(0));
+        deck->erase(deck->begin() + 0);
 
         cardCount++;
+        // Display::Print("Player:::" + std::to_string(player) + " // " + std::to_string(cardCount) + " -- " + std::to_string(i));
 
         if(cardCount >= 5)
-        { player++; }
+        {
+            player++;
+            cardCount = 0;
+        }
+
         if(player > 4)
-        { break; }
+        {   break;  }
     }   
 
     //I couldnt figure out downcasting so I had to do it the bad way :(
@@ -81,10 +87,14 @@ void Game::Start()
 
     int roundsLeft = 5;
     
+    Card trumpCard = deck->at(0);
+    deck->erase(deck->begin() + 0);
 
     while(Game::running)
     {
+        Display::Print("Trump Card: " + trumpCard.ToString());
         Display::Print("\nRound " + roundsLeft);
+        
         for(int i = 0; i < 4; i++)
         {
             Display::Print("\n");

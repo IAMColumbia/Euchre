@@ -133,7 +133,9 @@ CMakeFiles/Euchre_app.dir/Bot.cpp.o: ../Bot.cpp \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_vector.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_bvector.h \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/vector.tcc \
-  ../Display.h
+  ../Display.h \
+  ../Utility.h \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/stdlib.h
 
 CMakeFiles/Euchre_app.dir/Card.cpp.o: ../Card.cpp \
   ../Card.h \
@@ -1255,10 +1257,6 @@ CMakeFiles/Euchre_app.dir/main.cpp.o: ../main.cpp \
 
 ../Input.cpp:
 
-/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/stdlib.h:
-
-../Utility.h:
-
 ../Game.h:
 
 ../Game.cpp:
@@ -1300,6 +1298,10 @@ CMakeFiles/Euchre_app.dir/main.cpp.o: ../main.cpp \
 ../Display.cpp:
 
 ../Card.cpp:
+
+/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/stdlib.h:
+
+../Utility.h:
 
 ../Display.h:
 

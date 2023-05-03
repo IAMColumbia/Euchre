@@ -101,4 +101,5 @@ CMakeFiles/Euchre_app.dir/Bot.cpp.o: /cygdrive/c/src/Euchre/Bot.cpp \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_vector.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/stl_bvector.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/vector.tcc \
- /cygdrive/c/src/Euchre/Display.h
+ /cygdrive/c/src/Euchre/Display.h /cygdrive/c/src/Euchre/Utility.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/stdlib.h

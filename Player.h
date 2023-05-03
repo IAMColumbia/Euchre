@@ -9,7 +9,8 @@ class Player
     public:
         Player(std::vector<Card>* cards);
         virtual Card* PlayCard();
+    protected:
+        std::vector<Card> *deck;
     private:
-        std::vector<Card>* deck;
         Input* input;
 };
