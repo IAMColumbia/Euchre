@@ -67,7 +67,7 @@ void Game::Start()
         {   break;  }
     }   
 
-    //I couldnt figure out downcasting so I had to do it the bad way :(
+    //I couldnt figure out downcasting so I had to do it the bad w  ay :(
     Player* player1 = new Player(player1_Deck);
     Bot* bot2 = new Bot(bot2_Deck);
     Bot* bot3 = new Bot(bot3_Deck);
@@ -86,14 +86,21 @@ void Game::Start()
     // }    
 
     int roundsLeft = 5;
+    int playerTeamScore;
+    int enemyTeamScore;
     
+    //pick a trump card
     Card trumpCard = deck->at(0);
     deck->erase(deck->begin() + 0);
 
     while(Game::running)
     {
-        Display::Print("Trump Card: " + trumpCard.ToString());
-        Display::Print("\nRound " + roundsLeft);
+        Card* winningCard = nullptr;
+        int winningPlayer = -1;
+
+        Display::Print("\n\nTrump Card: " + trumpCard.ToString());
+        
+        Display::Print("\nRound " + std::to_string(roundsLeft));
         
         for(int i = 0; i < 4; i++)
         {
@@ -121,19 +128,53 @@ void Game::Start()
 
             bool isPlayerTeam = i < 2;
             Display::Print(isPlayerTeam ? "Player Team" : "Other Team");
-            
+            Card* cardPlayed;
+
             if(bot != nullptr)
             { 
                 Display::Print("BOT: ");
-                bot->PlayCard();
+                cardPlayed = bot->PlayCard();
             }
             else
             {
                 Display::Print("PLAYER: ");
-                player->PlayCard();
+                cardPlayed = player->PlayCard();
+            }
+
+            if(winningCard == nullptr || cardPlayed->IsGreaterThan(winningCard) || cardPlayed->Equals(&trumpCard))
+            {
+                winningCard = cardPlayed;
+                winningPlayer = i;
             }
         }
+
+        Display::Print("\n\nRound over.\n");
+
+        if (winningCard != nullptr)
+        {
+            Display::Print("Winning Card: " + winningCard->ToString());
+            Display::Print("Winning Player: " + std::to_string(winningPlayer));
+            if (winningPlayer == 0 || winningPlayer == 1)
+            {
+                playerTeamScore++;
+            }
+            else
+            {
+                enemyTeamScore++;
+            }
+        }
+
         roundsLeft--;
+
+        if(roundsLeft <= 0)
+        {
+            Display::Print("Game Over");
+            if(playerTeamScore > enemyTeamScore)
+            { Display::Print("WINNER: PLAYER TEAM"); }
+            else
+            { Display::Print("WINNER: ENEMY TEAM"); }
+            running = false;        
+        }
     }
 }
 

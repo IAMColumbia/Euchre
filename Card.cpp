@@ -59,3 +59,14 @@ std::string Card::ToString()
 
     return output;
 }
+
+bool Card::IsGreaterThan(Card* card)
+{
+    if(card->Rank == Rank)
+    { return Suit > card->Suit; }
+    else
+    { return Rank > card->Rank; }
+}
+
+bool Card::Equals(Card* card)
+{ return Rank == card->Rank && Suit == card->Suit; }

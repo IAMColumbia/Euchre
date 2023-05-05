@@ -8,7 +8,7 @@ Card* Bot::PlayCard()
     // return nullptr;
     int inputIndex = Utility::RandomRange(0, deck->size());
     Display::PrintDeck(deck);
-    Display::Print("Picking: " + inputIndex);
+    Display::Print("Bot Picked: " + inputIndex);
     Card* output = &deck->at(inputIndex);
     deck->erase(deck->begin() + inputIndex);
     Display::Print("Bot Played: " + output->ToString());

@@ -13,18 +13,20 @@ class Card
         };
         enum RankEnum
         {
-            Ace,
-            King,
-            Queen,
-            Jack,
-            Ten,
-            Nine,
+            Seven,
             Eight,
-            Seven
+            Nine,
+            Ten,
+            Jack,
+            Queen,
+            King,
+            Ace
         };
         
         Card(Card::SuitEnum suit, Card::RankEnum rank);
         SuitEnum Suit;
         RankEnum Rank;
         std::string ToString();
+        bool IsGreaterThan(Card* card);
+        bool Equals(Card* card);
 };
